@@ -57,7 +57,7 @@ enable "Extensive Z Offset Processing" - (if your print doesnt work disable this
 # Setting up your image file
 
 Make or find an svg image of what you want to print.
-Then convert it to a stl file with [a link](https://svg2stl.com/)
+Then convert it to a stl file with [SVG2STL](https://svg2stl.com/)
 keeping the setting default works just fine
 
 Then import your stl to cura, and scale it appropriatly, after which you want to then un check Uniform Scaling and set "Z" to 0.2mm
