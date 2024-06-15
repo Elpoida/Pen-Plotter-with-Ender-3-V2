@@ -59,7 +59,7 @@ Then convert it to a stl file with ![SVG2STL](https://svg2stl.com/)
 keeping the setting default works just fine
 
 Then import your stl to cura, and scale it appropriatly, after which you want to then un check Uniform Scaling and set "Z" to 0.2mm
-![What is this](scale.png)
+![What is this](scale.png) <br>
 Make sure after you push slice there is a estimated time (if not change "Z" scale up a little till you have a estimated print time)
 ![What is this](slicetimer.png)
 Send it to your printer and cross your fingers that nothing failed and enjoy drawing :) 
