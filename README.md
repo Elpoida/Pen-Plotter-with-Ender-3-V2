@@ -8,7 +8,7 @@ Firstly i took a photo of the BL-TOUCH bracket:
 
 Using that i modeled a bracket in sketchup 
 
-![What is this](Sketch.png)
+![What is this](Sketch.png) <br>
 
 After printing it, I added 2 "O" rings as clamps to secure the pen.
 This turned out better than i thought with keeping the pen secured with no movement.
@@ -18,22 +18,24 @@ This turned out better than i thought with keeping the pen secured with no movem
 Setting up cura to now print with a pen.
 
 Firstly start with setting up a new machine using the ender 3 v2 defaults, and then go in and change a few things under the "Printer" tab.
-![What is this](machinesettings1.png)
+
+![What is this](machinesettings1.png) <br>
 
 Turn off Heated Bed.
 Change the Start G-code to look like mine by removing a few of the initial print settings, aswell as the End G-code.
 This removes the priming extrude line at the beginning and the final wipe that causes the pen to draw a short line at the end
 
 In the "Extruder" Tab
-![What is this](machinesettings2.png)
+
+![What is this](machinesettings2.png) <br>
 
 Set the Nozzle offset X -45 and Y -55 mm this ensures that the pen is positioned as the "Center"
 
 After setting up the machine:
 you then want to change your print settings.
 
-![What is this](printsettings1.png)
-![What is this](printsettings2.png)
+![What is this](printsettings1.png) <br>
+![What is this](printsettings2.png) <br>
 
 layer height 0.2mm
 wall thickness 0.8 = 2 line count, as i like it doubled (im using a 0.4mm pen for this change your numbers according to your pen)
@@ -59,10 +61,15 @@ Then convert it to a stl file with ![SVG2STL](https://svg2stl.com/)
 keeping the setting default works just fine
 
 Then import your stl to cura, and scale it appropriatly, after which you want to then un check Uniform Scaling and set "Z" to 0.2mm
+
 ![What is this](scale.png) <br>
+
 Make sure after you push slice there is a estimated time (if not change "Z" scale up a little till you have a estimated print time)
-![What is this](slicetimer.png)
+
+![What is this](slicetimer.png) <br>
+
 Send it to your printer and cross your fingers that nothing failed and enjoy drawing :) 
-![What is this](Final.png)
+
+![What is this](Final.png) <br>
 
 Thanks for having a look at my project, this is my first time posting any thing to github and i know theres no code anywhere but this is how i do, and i appreciate you all.
